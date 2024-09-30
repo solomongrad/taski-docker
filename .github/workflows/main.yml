@@ -68,7 +68,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Set up nodeJS
-      # Это готовый воркфлоу для установки Node.js на раннер
       uses: actions/setup-node@v3
       with:
         node-version: 18
